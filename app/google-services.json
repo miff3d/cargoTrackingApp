@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "377914105705",
+    "firebase_url": "https://fener-lojistik.firebaseio.com",
+    "project_id": "fener-lojistik",
+    "storage_bucket": "fener-lojistik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377914105705:android:fb863cda5147c731",
+        "android_client_info": {
+          "package_name": "com.fenerlojistik.fenerlojistik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377914105705-bunn2rtem73ej59gm0p0p2l0sk83gs8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fenerlojistik.fenerlojistik",
+            "certificate_hash": "d79cf581485e19dc62f4e1924439077afa7f97d7"
+          }
+        },
+        {
+          "client_id": "377914105705-b42dhjg2d5ke57a52v2ilhr59tr7pa4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfRLHHWmwxWc44-f0Ums4PbbYuP-sdwqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377914105705-b42dhjg2d5ke57a52v2ilhr59tr7pa4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

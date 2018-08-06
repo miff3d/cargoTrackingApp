@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fener_white_background"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/company_logo"
+                android:src="@drawable/fener_transparent"
+                android:text="Hello World!" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fener_lojistik"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/company_functions"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="@string/explaining_product_use"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_transparent_background"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <EditText
+                android:id="@+id/productNoEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:text="00000" />
+
+            <ImageView
+                android:id="@+id/searchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/search_bar"
+                android:src="@drawable/ic_search" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:drawableLeft="@drawable/ic_action_home"
+            android:drawableStart="@drawable/ic_action_home"
+            android:paddingBottom="5dp"
+            android:id="@+id/addressTextView"
+            android:text="@string/company_address"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:drawableLeft="@drawable/ic_action_mail"
+            android:drawableStart="@drawable/ic_action_mail"
+            android:gravity="center_vertical"
+            android:id="@+id/emailTextView"
+            android:paddingBottom="5dp"
+            android:text="@string/company_mail"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:drawableLeft="@drawable/ic_action_home"
+            android:drawableStart="@drawable/ic_action_home"
+            android:gravity="center_vertical"
+            android:id="@+id/websiteTextView"
+            android:paddingBottom="5dp"
+            android:text="@string/www_fenerlojistik_com"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:drawableLeft="@drawable/ic_print"
+            android:drawableStart="@drawable/ic_print"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:text="@string/company_fax"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:id="@+id/phoneTextView"
+            android:drawableLeft="@drawable/ic_action_phone_start"
+            android:drawableStart="@drawable/ic_action_phone_start"
+            android:gravity="center_vertical"
+            android:text="@string/_90_535_4181_551"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

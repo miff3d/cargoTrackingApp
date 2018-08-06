@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FENER LOJISTIK</string>
+    <string name="company_logo">company logo</string>
+    <string name="fener_lojistik">FENER LOJISTIK</string>
+    <string name="company_name">شركة فنار للتجارة</string>
+    <string name="company_functions">شحن-خدمات تجارية-تصدير-استيراد</string>
+    <string name="search_bar">search bar</string>
+    <string name="explaining_product_use">لمتابعة حالة المنتج المرسل يرجى ادخال الرقم المرفق على الوصل</string>
+    <string name="company_address">A. N. Gurman mah. - A. K. Tecer cd. - no: 15/5 - Gunguren - Istanbul</string>
+    <string name="company_mail">fenerlojistikltd@gmail.com</string>
+    <string name="company_fax">+90 212 5062 024</string>
+    <string name="_90_535_4181_551">+90 535 4181 551</string>
+    <string name="www_fenerlojistik_com">www.fenerlojistik.com</string>
+    <string name="the_sender_name">The Sender Name :</string>
+    <string name="sent_to">Sent to :</string>
+    <string name="product_code">Product code :</string>
+    <string name="product_statue">Product statue :</string>
+    <string name="product_info">معلومات المنتج</string>
+</resources>
